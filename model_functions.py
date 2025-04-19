@@ -8,7 +8,6 @@ def send_query(api_url, headers, payload):
     with httpx.Client() as client:
         response = client.post(api_url, headers=headers, data=payload, timeout=100)  # Usa await per attendere la risposta
         if response.status_code == 200:
-            print(response.json())
             return response.json()["choices"][0]["message"]["content"]
         else:
             return {"error": f"HTTP {response.status_code}: {response}"}
