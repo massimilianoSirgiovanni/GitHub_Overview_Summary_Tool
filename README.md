@@ -6,7 +6,7 @@ The core idea is to build a chatbot capable of **reading a GitHub user's profile
 
 By default, the chatbot is set to use the GitHub profile of its creator, _massimilianoSirgiovanni_, but you can provide a different GitHub username, and the chatbot will adapt to the requested user.
 
-# Installations and Execute
+# Installations and Execute (on Linux)
 
 The version of python used for this project is: ```Python 3.12.2```.
 
@@ -28,7 +28,16 @@ pip install -r requirements.txt
 
 ### Execute the code
 
+To quickly clone the repository and launch the application, run the following commands in your terminal:
+```commandline
+git clone https://github.com/massimilianoSirgiovanni/GitHub_Overview_Summary_Tool.git
+```
 
+Navigate into the project directory and launch the application:
+```commandline
+cd GitHub_Overview_Summary_Tool
+python main.py
+```
 
 # Usage and Examples
 
