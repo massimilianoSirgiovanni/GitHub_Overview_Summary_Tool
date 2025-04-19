@@ -69,7 +69,7 @@ The core file is ```main.py```, which also serves as the entry point for executi
 
 The ```model_function.py``` file contains all the functions responsible for running the chatbot, as well as formatting its input and output properly.
 
-The ```reading_page.py``` file, on the other hand, includes all the methods used to extract the desired GitHub profile and perform any related pre-processing tasks (RAG).
+The ```reading_page.py``` file, on the other hand, includes all the methods used to extract the desired GitHub profile and perform any related pre-processing tasks.
 
 The ```logger.py``` file provides utility functions for creating and managing the log file.
 
