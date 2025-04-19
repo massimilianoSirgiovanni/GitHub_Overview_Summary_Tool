@@ -1,0 +1,66 @@
+2025-04-19 13:59:15,560 - INFO - [User] Can you explain me the working experience of Massimiliano?
+
+2025-04-19 13:58:10,098 - INFO - [G.H.O.S.T.] Massimiliano Sirgiovanni has several notable projects on his GitHub, including:
+
+1. **[Music Generation with AI](https://github.com/massimilianoSirgiovanni/MusicGenerationThesis)**  
+   - Developed for his master's thesis, this project focuses on generating music using artificial intelligence (Python).
+
+2. **[Matlab Interface for Curve Evaluation Algorithms](https://github.com/massimilianoSirgiovanni/Matlab-Interface-for-curveEvaluation-Algorithms)**  
+   - A project for the Numerical Methods for Graphics exam, implementing interfaces for De Casteljau and De Boor algorithms (Matlab).
+
+3. **[Penguin's Relationships Analysis](https://github.com/massimilianoSirgiovanni/Penguins-Relationship-Analysis)**  
+   - A Social Network Analysis project studying penguin relationships at the Kyoto Aquarium (R). Collaborators: [Ciardi Guido](https://github.com/guidociardi), [Martinelli Giuseppe](https://github.com/JosephMartinelli), [Tosi Federica](https://github.com/federicatosi).
+
+4. **[CNN from Scratch](https://github.com/massimilianoSirgiovanni/CNN-From-Scratch)**  
+   - Built a convolutional neural network from scratch for image classification (Python).
+
+5. **[Films Ontology](https://github.com/massimilianoSirgiovanni/Films_Ontology)**  
+   - Created an ontology for film production using Protégé.
+
+6. **[IMDB Dataset Analysis](https://github.com/massimilianoSirgiovanni/IMDB-DatasetAnalysis)**  
+   - Analyzed the IMDB database with millions of films (Python). Collaborator: [Ciardi Guido](https://github.com/guidociardi).
+
+7. **[Parallel K-Means](https://github.com/massimilianoSirgiovanni/ProjectsParallelComputing/tree/main/K-Means)**  
+   - Parallelized the K-Means algorithm (C).
+
+8. **[Parallel Bloom Filter](https://github.com/massimilianoSirgiovanni/ProjectsParallelComputing/tree/main/Bloom-Filter)**  
+   - Parallelized the Bloom filter (Python).
+
+9. **[Automatic People Counter](https://github.com/massimilianoSirgiovanni/PersonCounter_Thesis_Project)**  
+   - A PWA prototype for his bachelor's thesis, using MQTT (Java/HTML).
+
+10. **[Encryption System](https://github.com/massimilianoSirgiovanni/Encryption-System-in-MIPS)**  
+    - Implemented encryption/decryption methods in MIPS Assembly.
+
+11. **[Property Tax Evaluation](https://github.com/massimilianoSirgiovanni/Project-Property-Tax)**  
+    - Simulated a banking app with design patterns (Java). Collaborator: Boddi Gabriele.
+
+Would you like details on any specific project? 😊
+
+2025-04-19 13:56:23,017 - INFO - [User] List me his projects
+
+2025-04-19 13:55:28,509 - INFO - [G.H.O.S.T.] Hi there! I'm G.H.O.S.T., your friendly AI assistant here to help with anything related to GitHub profiles and projects. Speaking of which, I noticed you're checking out Massimiliano Sirgiovanni's GitHub—he's a Data Science and AI Engineering specialist with some really cool projects! Want to explore more about his work? 😊
+
+2025-04-19 13:54:21,310 - INFO - [User] Hi, who are you?
+
+2025-04-19 13:52:01,115 - INFO - [User] Hello, who are you?
+
+2025-04-17 20:52:16,138 - INFO - [User] Hello, who are you?
+
+2025-04-17 20:51:01,707 - INFO - [G.H.O.S.T.] 
+
+2025-04-17 20:49:17,684 - INFO - [User] Hello, who are you?
+
+2025-04-17 20:48:26,166 - INFO - [User] Hello, who are you?
+
+2025-04-15 15:10:25,873 - INFO - ERROR DORING LOGGING TO: massimilianoSirgiovann
+    - FOUND EXCEPTION: ERROR: GITHUB USER NOT FOUND!
+2025-04-15 15:09:10,974 - INFO - [User] Hi, what can you do?
+
+2025-04-15 15:08:48,753 - INFO - LOADED PROFILE: massimilianoSirgiovann
+
+2025-04-15 15:07:37,630 - INFO - LOADED PROFILE: JosephMartinelli
+2025-04-15 15:05:48,154 - INFO - [G.H.O.S.T.] Of course! I'd be happy to help. What do you need assistance with?  
+
+By the way, Massimiliano Sirgiovanni is a Data Science and AI Engineering specialist with experience in projects ranging from NLP and LLMs to parallel computing and neural networks. If you're interested in his work, I can share more details about his GitHub projects or skills. Let me know how I can assist you!
+2025-04-15 15:04:35,178 - INFO - [User] Hello, can you help me?
