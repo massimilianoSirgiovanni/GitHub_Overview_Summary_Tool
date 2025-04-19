@@ -39,13 +39,18 @@ Naturally, the more complete and detailed the GitHub profile is, the more accura
 Below are some example images showcasing how the chatbot works in practice.
 
 ### Example 1
-<img src="./img/chat_screenshot_1.png"><\img>
+<img src="./img/chat_screenshot_1.png"></img>
 
-The chatbot introduces itself by mimicking the behavior of a friendly human, explaining its purpose in a conversational way.
+G.H.O.S.T. introduces itself by mimicking the behavior of a friendly human, explaining its purpose in a conversational way.
 Without being too pushy, it smoothly transitions to talking about the GitHub profile it has been given as input—by default, its creator's profile—offering a brief overview and inviting the user to ask for more specific information.
 
 ### Example 2
+<img src="./img/chat_screenshot_2.png"></img>
+G.H.O.S.T. can dive into the details of a GitHub profile, summarizing its content and providing clearer explanations of what it contains.
 
+### Example 3
+<img src="./img/chat_screenshot_3.png"></img>
+Additionally, you can provide G.H.O.S.T. with a different GitHub profile, in the text area at the top of the image, and it will work seamlessly without the need to redefine or adjust the prompts.
 
 # Project Structure
 
