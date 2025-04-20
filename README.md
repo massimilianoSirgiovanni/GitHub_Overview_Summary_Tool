@@ -1,6 +1,6 @@
 # G.H.O.S.T. (GitHub Overview & Summary Tool)
 
-**G.H.O.S.T.** is a small personal project created to apply some of the knowledge I've gained in the fields of NLP, LLMs, and RAG.
+**G.H.O.S.T.** is a small personal project created to apply some of the knowledge I've gained in the fields of NLP.
 
 The core idea is to build a chatbot capable of **reading a GitHub user's profile page in real-time**, in order to answer questions related to that specific profile.
 
