@@ -2,6 +2,7 @@ import gradio as gr
 from reading_page import read_github_profile
 from model_functions import format_text_for_LLM, api_key, call_llm
 from logger import return_logger
+from colorama import Fore, Style
 
 File_logger = return_logger()
 
@@ -54,4 +55,5 @@ with gr.Blocks() as demo:
     msg.submit(chat_with_model_gradio, [msg, state], [chatbot, state, msg])
     clear.click(lambda: ([], []), None, [chatbot, state])
 
-demo.launch(share=True)
+print(f"{Fore.LIGHTMAGENTA_EX}G.H.O.S.T. is available at:{Style.RESET_ALL} http://localhost:9999", flush=True)
+demo.launch(server_name="0.0.0.0", server_port=7860, share=True)
