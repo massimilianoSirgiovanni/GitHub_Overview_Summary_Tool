@@ -2,7 +2,7 @@ import httpx
 import json
 import os
 
-api_key = open(f"{os.path.dirname(os.path.abspath(__file__))}/secrets/open_router_key.txt", "r").read().replace("\n", "")
+api_key = os.getenv("OR_KEY", "")
 
 def send_query(api_url, headers, payload):
     with httpx.Client() as client:
