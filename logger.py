@@ -31,8 +31,9 @@ class ReverseFileHandler(logging.Handler):
 def return_logger():
     logger = logging.getLogger('reverse_logger')
     logger.setLevel(logging.INFO)
-
-    handler = ReverseFileHandler('chatbot.log', max_lines=200)
+    log_dir = "./logs"
+    os.makedirs(log_dir, exist_ok=True)
+    handler = ReverseFileHandler(log_dir + '/chatbot.log', max_lines=200)
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     handler.setFormatter(formatter)
 
