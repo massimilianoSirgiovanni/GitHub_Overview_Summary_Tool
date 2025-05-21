@@ -6,38 +6,52 @@ The core idea is to build a chatbot capable of **reading a GitHub user's profile
 
 By default, the chatbot is set to use the GitHub profile of its creator, _massimilianoSirgiovanni_, but you can provide a different GitHub username, and the chatbot will adapt to the requested user.
 
+[UPDATE] To ensure greater consistency and reproducibility in code execution, the application was containerized using **Docker**.
+
 # Installations and Execute (on Linux)
 
 The version of python used for this project is: ```Python 3.12.2```.
 
-### (Optional) Create a python Enviroment
+---
 
-It is recommended to create a new Python environment, as some libraries need to be installed. The following steps will explain how to create and activate a Python environment using ```venv``` (although you're free to use other tools like Conda if you prefer).
+## Docker Installation (if not already installed)
 
-\# Note: For this environment it was chosen to insert it in the venv folder with the name "ghost", obviously this is a parameter that can be changed at will
-```commandline
-python -m venv venv/ghost
-source venv/ghost/bin/activate
-```
+Make sure Docker is installed on your machine. You can download it from the official site: [https://www.docker.com/get-started](https://www.docker.com/get-started)
 
-### Install the Requirements
-To install all the necessary libraries and dependencies required to run the code, you simply need to install the packages listed in the requirements.txt file.
-```commandline
-pip install -r requirements.txt
-```
+---
 
-### Execute the code
+## Set Up the Code
 
-To quickly clone the repository and launch the application, run the following commands in your terminal:
-```commandline
+Clone the repository and navigate to the project directory:
+
+```bash
 git clone https://github.com/massimilianoSirgiovanni/GitHub_Overview_Summary_Tool.git
+cd GitHub_Overview_Summary_Tool
+```
+---
+
+## Run the Docker Container
+
+First, build the Docker image:
+
+```bash
+docker build -t ghost .
+```
+Verify the image was created successfully:
+
+```bash
+docker images
 ```
 
-Navigate into the project directory and launch the application:
-```commandline
-cd GitHub_Overview_Summary_Tool
-python main.py
+Then, run the container:
+
+```bash
+docker run -p 9999:7860 -v ./my-logs:/logs -e OR_KEY="" ghost
 ```
+
+> ⚠️ **Important:** Replace `OR_KEY` with a valid OpenRouter API key to enable DeepSeek functionality.
+
+
 
 # Usage and Examples
 
@@ -78,8 +92,7 @@ Due to the lack of suitable hardware capable of running even small-scale LLMs lo
 For demonstration purposes, DeepSeek was chosen because of its efficiency and relatively low cost.
 However, other models such as Gemini, Mistral, or GPT can also be used as alternatives.
 
-To use OpenRouter, you need an API key, which must be placed inside the following file:
-```./secret/open_router_key.txt```
+To use OpenRouter, you need an API key, which must be sended as an Enviroment Variable to the Docker Container ([Go to Docker instructions](#run-the-docker-container))
 
 # Possible Future Extensions
 
